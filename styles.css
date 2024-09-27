@@ -14,13 +14,47 @@ body {
 header {
     background: #004080;
     color: white;
-    padding: 1rem 0;
+    padding: 10px;
+    height: 200px;
     text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#titulo {
+    text-align: left;
+    margin-left: 180px;
+    margin-top: -60px;
+}
+
+#escudo {
+    width: 70px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: block;
+}
+
+#logobanco {
+    width: 70px;
+    height: 40px;
+    align-items: end;
+    margin-left: 1000px;
+    margin-top: 0px;
+    display: block;
 }
 
 nav ul {
+    margin-left: 440px;
     list-style: none;
     padding: 0;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+nav ul:hover {
+border-bottom: 2px solid black;
+cursor: pointer;
 }
 
 nav ul li {
