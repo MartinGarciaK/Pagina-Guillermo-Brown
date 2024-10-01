@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -14,57 +13,68 @@ body {
 header {
     background: #004080;
     color: white;
-    padding: 10px;
-    height: 200px;
-    text-align: center;
+    padding: 0 20px;
+    height: 120px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-#titulo {
-    text-align: left;
-    margin-left: 180px;
-    margin-top: -60px;
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #escudo {
-    width: 70px;
-    height: 100px;
-    margin-left: 70px;
-    margin-top: 20px;
+    width: 65px;
+    height: auto;
+    margin-left: 100px;
     display: block;
 }
 
-#logobanco {
-    width: 70px;
-    height: 40px;
-    align-items: end;
-    margin-left: 1000px;
-    margin-top: 0px;
-    display: block;
+#titulos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
-nav ul {
-    margin-left: 440px;
+#titulo1 {
+    font-size: 1.0rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+#titulo2 {
+    font-size: 1.7rem;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+#secciones ul {
     list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
     padding: 0;
-    transition: box-shadow 0.3s ease;
-    
 }
 
-nav ul:hover {
-border-bottom: 2px solid black;
-cursor: pointer;
+#secciones ul li {
+    display: inline-block;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+#secciones ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+#secciones ul li a:hover {
+    color: #ffcc00;
 }
 
 .seccion-principal {
