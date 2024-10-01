@@ -57,8 +57,9 @@ nav {
 #secciones ul {
     list-style: none;
     display: flex;
+    margin-top: 200px;
+    margin-right: 900px;
     gap: 20px;
-    margin: 0;
     padding: 0;
 }
 
