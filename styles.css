@@ -18,14 +18,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 #escudo {
     width: 65px;
@@ -55,10 +50,11 @@ nav {
 }
 
 #secciones ul {
+    font-family: sans-serif;
+    font-weight: 600;
     list-style: none;
     display: flex;
-    margin-top: 200px;
-    margin-right: 900px;
+    margin-right: 60px;
     gap: 20px;
     padding: 0;
 }
@@ -78,11 +74,9 @@ nav {
     color: #ffcc00;
 }
 
-.seccion-principal {
-    background: url('https://example.com/imagen-del-club.jpg') no-repeat center center/cover;
-    color: rgb(0, 0, 0);
-    padding: 4rem 2rem;
-    text-align: center;
+.fotohinchada {
+    background: url(fotos/hinchada.jpg) no-repeat center center/cover;
+    padding: 120px;
 }
 
 h2 {
