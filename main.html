@@ -9,24 +9,27 @@
 </head>
 <body>
     <header id="header">
-        <img id="escudo" src="fotos/escudo.png">
+        <a href="main.html">
+            <img id="escudo" src="fotos/escudo.png" alt="escudo">
+        </a>
         <div id="titulos">
+            <a id="atitulos" href="main.html">
                 <p id="titulo1">Club Social y Atlético</p>
                 <h1 id="titulo2">GUILLERMO BROWN</h1>
+            </a>
         </div>
         <div id="secciones">
             <ul>
-                    <li><a href="#noticias">Noticias</a></li>
-                    <li><a href="#elclub">El club</a></li>
-                    <li><a href="#disciplinas">Disciplinas</a></li>
-                    <li><a href="#instalaciones">Instalaciones</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="elclub.html">El club</a></li>
+                    <li><a href="disciplinas.html">Disciplinas</a></li>
+                    <li><a href="instalaciones.html">Instalaciones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                     
             </ul>
         </div>
     </header>
     
-
     <section class="fotohinchada">
     </section>
 
@@ -37,20 +40,54 @@
                 <img src="fotos/futbol.jpg" alt="Imagen noticia 1">
                 <h3>Derrota de La banda en el ultimo partido</h3>
                 <p>Perdió 0-1 frente a Deportivo Madryn</p>
+                <p id="p2">28/09</p>
             </article>
             <article class="noticia">
                 <img src="fotos/basquet.jpg" alt="Imagen noticia 2">
                 <h3>Ganó Brown en Basquet</h3>
                 <p>Gran victoria por la liga local</p>
+                <p id="p2">23/09</p>
             </article>
             <article class="noticia">
                 <img src="fotos/rolle.jpg" alt="Imagen noticia 3">
                 <h3>Martin Rolle nuevo DT de La Banda</h3>
-                <p>Gran incorporacion del elenco del sur</p>
+                <p>Incorporacion importante del elenco del sur para luchar por el ascenso a la primera división</p>
+                <p id="p2">20/09</p>
+            </article>
+        </div>
+        <div class="contenedor-noticias">
+            <article class="noticia">
+                <img src="fotos/femenino.jpg" alt="Imagen noticia 4">
+                <h3>Clasificación a semis del femenino</h3>
+                <p>Fue victoria por 3-0 ante Germinal de Rawson</p>
+                <p id="p2">15/09</p>
+            </article>
+            <article class="noticia">
+                <img src="fotos/juveniles.jpg" alt="Imagen noticia 5">
+                <h3>Resultados Fecha 7 de las inferiores</h3>
+                <p>Victorias de 5ta, 8va y 9na</p>
+                <p id="p2">02/09</p>
+            </article>
+            <article class="noticia">
+                <img src="fotos/asamblea.jpg" alt="Imagen noticia 6">
+                <h3>Se aprobaron las obras en el estadio de basquet de La Banda</h3>
+                <p>Guillermo Brown renovará el piso flotante del "Benito García" con aportes provinciales</p>
+                <p id="p2">26/08</p>
             </article>
         </div>
     </section>
     
+    <section id="ultimos-resultados" class="seccion2">
+        <h2>Proximo partido</h2>
+        <iframe src="https://www.flashscore.com.ar/partido/bkcJPzie/#/resumen-del-partido" 
+        width="100%" 
+        height="200px"
+        style="border:none;" 
+        allowfullscreen="true" 
+        loading="lazy">
+        </iframe>
+    </section>
+
     <section id="contacto" class="seccion">
         <h2>Contacto</h2>
         <p>Si deseas más información sobre el club o nuestras actividades, puedes comunicarte con nosotros:</p>

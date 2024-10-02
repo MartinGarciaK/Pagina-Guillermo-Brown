@@ -35,15 +35,21 @@ header {
     margin-left: 20px;
 }
 
+#atitulos {
+    text-decoration: none;
+}
+
 #titulo1 {
     font-size: 16px;
     font-weight: 100;
+    color: white;
 }
 
 #titulo2 {
     font-size: 27px;
     font-weight: 500;
     letter-spacing: 0.5px;
+    color: white;
 }
 
 #secciones ul {
@@ -111,6 +117,12 @@ header {
     flex-grow: 1;
 }
 
+#p2{
+    text-align: end;
+    font-size: 14px;
+    color: #555;
+    flex-grow: 1;
+}
 
 h2 {
     margin: 10px;
@@ -119,6 +131,14 @@ h2 {
 
 .seccion {
     padding: 32px;
+    background-color: white;
+    margin: 32px;
+    border-radius: 5px;
+}
+
+.seccion2 {
+    padding: 32px;
+    width: 30%;
     background-color: white;
     margin: 32px;
     border-radius: 5px;
