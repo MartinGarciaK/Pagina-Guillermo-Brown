@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: #004080;
+    background: url(fotos/fondo_agua.jpg) no-repeat center center/cover;
     color: white;
     padding: 0 20px;
     height: 120px;
