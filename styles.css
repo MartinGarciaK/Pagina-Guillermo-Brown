@@ -78,6 +78,29 @@ header {
     color: #ffcc00;
 }
 
+.socio {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#boton-socio {
+    background: #004080;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
 .fotohinchada {
     background: url(fotos/hinchada.jpg) no-repeat center center/cover;
     padding: 120px;
@@ -168,4 +191,15 @@ footer {
     background: #004080;
     color: white;
     width: 100%;
+}
+
+
+
+#parrafos-historia {
+    display: block;
+    margin-block-start: 1.2sem;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
