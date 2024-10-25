@@ -1,3 +1,4 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background: url(fotos/fondo_agua.jpg) no-repeat center center/cover;
     color: white;
@@ -20,7 +22,6 @@ header {
     justify-content: space-between;
     width: 100%;
 }
-
 
 #escudo {
     width: 65px;
@@ -78,6 +79,82 @@ header {
     color: #ffcc00;
 }
 
+/* Sección Tienda */
+.tienda {
+    padding: 40px;
+    text-align: center;
+}
+
+.tienda h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.producto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.producto h3 {
+    font-size: 1.2em;
+    color: #003366;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 16px;
+    background: #004080;
+    color: white;
+    width: 100%;
+}
+
+/* Otras Secciones */
 .socio {
     background-color: #f4f4f4;
     border-radius: 5px;
@@ -99,7 +176,6 @@ header {
     border-radius: 5px;
     justify-content: center;
 }
-
 
 .fotohinchada {
     background: url(fotos/hinchada.jpg) no-repeat center center/cover;
@@ -141,13 +217,6 @@ header {
     flex-grow: 1;
 }
 
-#p2{
-    text-align: end;
-    font-size: 14px;
-    color: #555;
-    flex-grow: 1;
-}
-
 h2 {
     margin: 10px;
     font-size: 32px;
@@ -178,28 +247,4 @@ ul li {
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
-}
-
-#imgfooter {
-    filter: invert(1) brightness(2);
-    justify-content: space-between;
-}
-
-footer {
-    text-align: center;
-    padding: 16px;
-    background: #004080;
-    color: white;
-    width: 100%;
-}
-
-
-
-#parrafos-historia {
-    display: block;
-    margin-block-start: 1.2sem;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
