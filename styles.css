@@ -145,16 +145,16 @@ button:hover {
     background-color: #003366;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 16px;
-    background: #004080;
+    background: #a8bcd4;
     color: white;
     width: 100%;
 }
 
-/* Otras Secciones */
+
 .socio {
     background-color: #f4f4f4;
     border-radius: 5px;
@@ -249,7 +249,7 @@ ul li {
     border-radius: 5px;
 }
 
-/* Disciplinas */
+
 .disciplinas {
     padding: 40px;
     background-color: #f4f4f4;
