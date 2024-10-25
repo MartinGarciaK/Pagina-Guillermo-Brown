@@ -79,7 +79,6 @@ header {
     color: #ffcc00;
 }
 
-/* Sección Tienda */
 .tienda {
     padding: 40px;
     text-align: center;
@@ -287,4 +286,89 @@ ul li {
 .disciplina p {
     color: #555;
     font-size: 1em;
+}
+
+#titulo-historia {
+    margin-left: 60px;
+    font-size: 50px;
+    color: #021e3a;
+}
+
+#parrafos-historia  {
+    margin-top: 50px;
+    margin-left:90px;
+    margin-right:35%;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #021e3a;
+}
+
+#h2historia {
+    margin-left: 0px;
+}
+
+#fotoaa img{
+    width: 100%;
+    height: auto;
+    filter: brightness(1.3);
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.sidebar {
+    width: 300px;
+    margin-left: 50px; /* Cambiado de margin-right a margin-left */
+}
+
+.title {
+    font-size: 40px;
+    color: #021e3a;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.menu-item {
+    display: block;
+    background-color: #ededed;
+    color: #021e3a;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.menu-item:hover {
+    background-color: #d8e1e8;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    font-size: 36px;
+    color: #002D62;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: #002D62;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
 }
