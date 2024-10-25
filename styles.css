@@ -248,3 +248,43 @@ ul li {
     margin: 5px;
     border-radius: 5px;
 }
+
+/* Disciplinas */
+.disciplinas {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.disciplinas h2 {
+    font-size: 2.5em;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.lista-disciplinas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.disciplina {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+}
+
+.disciplina h3 {
+    font-size: 1.4em;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.disciplina p {
+    color: #555;
+    font-size: 1em;
+}
