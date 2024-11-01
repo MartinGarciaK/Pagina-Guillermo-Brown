@@ -34,26 +34,82 @@
     </header>
     <section id="fotoaa">
         <img src="fotos/fotoaa.png" alt="">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="fotos/prueba1.jpg" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="fotos/prueba2.jpg" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="fotos/prueba3.jpg" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="nav-btn left" onclick="prevSlide()">&#10094;</button>
+            <button class="nav-btn right" onclick="nextSlide()">&#10095;</button>
+        </div>
+        
+        <div class="indicator">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
     </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                const slides = document.querySelectorAll('.slide');
+                const dots = document.querySelectorAll('.dot');
+                if (index >= slides.length) currentIndex = 0;
+                else if (index < 0) currentIndex = slides.length - 1;
+                else currentIndex = index;
+
+                slides.forEach((slide, i) => {
+                    slide.style.transform = `translateX(-${currentIndex * 100}%)`;
+                    dots[i].classList.remove('active');
+                });
+                dots[currentIndex].classList.add('active');
+            }
+
+            function nextSlide() {
+                showSlide(currentIndex + 1);
+            }
+
+            function prevSlide() {
+                showSlide(currentIndex - 1);
+            }
+
+            function currentSlide(index) {
+                showSlide(index);
+            }
+
+            // Muestra la primera imagen al cargar la página
+            showSlide(currentIndex);
+        });
+    </script>
     <section class="tienda">
-        <h2>Tienda Online</h2>
+        <h2>Indumentaria</h2>
         <div class="productos">
             <div class="producto">
-                <img src="fotos/remera.png" alt="Remera deportiva del club">
-                <h3>Remera Deportiva Oficial</h3>
-                <p>$3,500</p>
+                <img src="fotos/camiseta-titular.jpg" alt="">
+                <h3>Camiseta de juego titular - Temporada 2024</h3>
+                <p>$64,499</p>
                 <button>Agregar al carrito</button>
             </div>
             <div class="producto">
-                <img src="fotos/buzo.png" alt="Buzo deportivo del club">
-                <h3>Buzo Deportivo Oficial</h3>
-                <p>$6,000</p>
+                <img src="fotos/camiseta-suplente.jpg" alt="">
+                <h3>Camiseta de juego suplente - Temporada 2024</h3>
+                <p>$61,999</p>
                 <button>Agregar al carrito</button>
             </div>
             <div class="producto">
-                <img src="fotos/campera.png" alt="Campera del club">
-                <h3>Campera Oficial</h3>
-                <p>$8,500</p>
+                <img src="fotos/camiseta-alternativa.jpg" alt="">
+                <h3>Camiseta de juego alternativa - Temporada 2024</h3>
+                <p>$64,499</p>
                 <button>Agregar al carrito</button>
             </div>
         </div>
