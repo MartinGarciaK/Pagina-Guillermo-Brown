@@ -288,7 +288,7 @@ ul li {
     font-size: 1em;
 }
 
-#titulo-historia {
+#titulos-elclub {
     margin-left: 60px;
     font-size: 50px;
     color: #021e3a;
@@ -313,15 +313,13 @@ ul li {
     filter: brightness(1.3);
 }
 
-.container {
-    display: flex;
-    max-width: 1200px;
-    margin: 50px auto;
-}
 
 .sidebar {
     width: 300px;
-    margin-left: 50px; /* Cambiado de margin-right a margin-left */
+    position: fixed;
+    top: 45%;
+    left: 75%;
+    backdrop-filter: blur(5px);
 }
 
 .title {
