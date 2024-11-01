@@ -11,7 +11,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background: url(fotos/fondo_agua.jpg) no-repeat center center/cover;
     color: white;
@@ -294,7 +293,7 @@ ul li {
     color: #021e3a;
 }
 
-#parrafos-historia  {
+#parrafos-elclub  {
     margin-top: 50px;
     margin-left:90px;
     margin-right:35%;
@@ -303,7 +302,7 @@ ul li {
     color: #021e3a;
 }
 
-#h2historia {
+#h2elclub {
     margin-left: 0px;
 }
 
