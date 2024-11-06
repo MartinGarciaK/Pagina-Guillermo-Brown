@@ -441,3 +441,8 @@ html {
 .active {
     background-color: #717171;
 }
+
+#maurof {
+    width: 50%;
+    margin-left: 25%;
+}
