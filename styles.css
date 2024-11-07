@@ -519,3 +519,26 @@ html {
     max-width: 400px;
     margin: 20px auto;
 }
+
+#h2contacto{
+    color: #021e3a;
+    font-size: 50px;
+    flex: 1;
+    margin-left: 100px;
+}
+
+.headercontacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#escudocontacto {
+    width: 250px;
+    margin-left: 7%;
+}
+
+#iconowhatsapp {
+    width: 75px;
+    margin-right: 150px;
+}
