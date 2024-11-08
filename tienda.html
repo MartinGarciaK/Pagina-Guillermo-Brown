@@ -35,12 +35,20 @@
     
 
     <script>
-       
-       function agregarAlCarrito() {
+        function agregarAlCarrito() {
             alert("Producto agregado al carrito.");
+        }
+        function borrar_texto() {
+            document.getElementById('emailInput').value = '';
+        }
+        function alerta_suscripcion() {
+            alert("¡Gracias por suscribirte! A partir de ahora vas a recibir nuestras novedades en tu email")
         }
     </script>
 
+    <section class="banner_tienda">
+        <img src="fotos/banner_tienda.jpg" alt="">
+    </section>
     <section class="tienda">
         <h2>Indumentaria</h2>
         <div class="productos">
@@ -79,7 +87,7 @@
         <div class="productos">
             <div class="producto">
                 <img src="fotos/gorrita estampada.webp" alt="">
-                <h3>gorra estampada - temporada 2024</h3>
+                <h3>Gorra escudo estampado</h3>
                 <p>$17,999</p>
                 <br>
                 <button onclick="agregarAlCarrito()">Agregar al carrito</button>
@@ -100,7 +108,16 @@
             </div>
         </div>
     </section>
-
+    <section class="ofertas">
+        <div id="ofertas-texto">
+            <h2>Recibí todas las ofertas</h2>
+            <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
+            <div class="contenedor-input">
+                <input type="email" name="email" placeholder="Email" id="emailInput">
+                <button class="flecha_boton" onclick="borrar_texto(),alerta_suscripcion()">➔</button>
+            </div>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2024 Club Guillermo Brown. Todos los derechos reservados.</p>
     </footer>
