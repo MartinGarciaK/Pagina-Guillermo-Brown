@@ -520,33 +520,90 @@ html {
     margin: 20px auto;
 }
 
-#h2contacto{
-    color: #021e3a;
-    font-size: 50px;
-    flex: 1;
-    margin-left: 100px;
-}
-
-.headercontacto {
+/* Estilos del encabezado de contacto */
+.header-contacto {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-#escudocontacto {
-    width: 250px;
-    margin-left: 7%;
-    margin-bottom: 50px;
+#escudo-contacto {
+    width: 200px;
+    height: auto;
 }
 
-#iconowhatsapp {
-    width: 75px;
-    margin-right: 150px;
-}
-
-.principalcontacto{
+#titulo-contacto {
+    font-size: 45px;
     color: #021e3a;
-    margin-left: 100px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+#icono-whatsapp {
+    width: 80px;
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+
+.contenido-contacto {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+.datos-contacto h3, .datos-contacto h4 {
+    color: #021e3a;
+    font-weight: bold;
+}
+
+.datos-contacto p {
+    color: #333;
+}
+
+/* Línea divisoria vertical */
+.linea-vertical {
+    width: 3px;
+    background-color: #021e3a;
+    height: auto;
+    margin-bottom: 70px;
+    min-height: 600px;
+}
+
+/* Estilos del formulario de contacto */
+.form-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+}
+
+.form-contacto label {
+    font-weight: bold;
+    color: #021e3a;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-contacto button {
+    background-color: #021e3a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-contacto button:hover {
+    background-color: #014278;
 }
 
 .banner_tienda img{
@@ -589,4 +646,29 @@ input[name="email"] {
     color: #004080;
     cursor: pointer;
     font-size: 20px;
+}
+
+/* Estilos de la tabla */
+.table-container {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
 }
