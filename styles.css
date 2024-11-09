@@ -154,7 +154,7 @@ footer {
 
 
 .socio {
-    background-color: #f4f4f4;
+    background-color: #004080;
     border-radius: 5px;
     text-align: center;
     margin: auto;
@@ -165,8 +165,12 @@ footer {
     justify-content: center;
 }
 
+#parrafosocio {
+    color: white;
+}
+
 #boton-socio {
-    background: #004080;
+    background: black;
     color: white;
     text-decoration: none;
     padding: 5px;
@@ -720,9 +724,28 @@ thead {
 
 #titulocentrado {
     text-align: center;
+    color: #00274d;
 }
 
 #intalacionesh2 {
     margin-left: 6%;
+    color: #00274d;
 }
+
+#parrafos-instalaciones  {
+    margin-top: 5px;
+    margin-left:90px;
+    margin-bottom: 2px;
+    text-align: justify;
+    color: #021e3a;
+}
+
+.h2socio { 
+    text-align: center;
+}
+
+.h2asc {
+    text-align: center;
+}
+
 
